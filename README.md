@@ -1,6 +1,44 @@
-# ADS509-Group-2-APPLIED-TEXT-MINING-FINAL-PROJECT
-This project is for the fulfillment of the ADS_509 Applied Text Mining Final Team Project. This project aims to apply text mining to analyze the financial documents from the U.S. Securities and Exchange Commission (SEC). The project is led from the foundation of the advanced Natural Language Processing (NPL). The data retrieval and processing is followed by machine learning classification and topic modeling. 
-The project is outlined in the following steps:
+# Financial Data Analysis and Data Extraction From EDGAR
+
+This project is part of the ADS_509 Applied Text Mining course in the Applied Data Science Program at the University of San Diego.
+
+# -- Project Status: Completed
+
+# Installation
+1. Clone this repository:
+git init
+git clone https://github.com/your-username/financial-disclosure-analysis.git
+
+2. Install the required Python libraries:
+pip install -r requirements.txt
+
+3. Download the SEC financial disclosures dataset (if not included) and store them in the appropriate folder.
+
+4. You will also need to install spaCy’s English language model:
+python -m spacy download en_core_web_sm
+
+# Project Intro/Objective
+This project aims to apply text mining to analyze financial documents from the U.S. Securities and Exchange Commission (SEC). The project is led from the foundation of the advanced Natural Language Processing (NPL). The data retrieval and processing is followed by machine learning classification and topic modeling. 
+
+# Partner(s)/Contributor(s)
+Dip Raj Bista
+Ghassan Seba 
+Landon Padgett
+
+# Methods Used
+Data Preprocessing
+Web Scrapping
+Data Visualization
+Data Engineering
+Predictive Modeling
+Machine Learning
+Text Mining
+
+# Technologies
+Python
+
+# Project Description
+The project is outlined in the following steps.
 
 # Data Retrieval and Processing
 # 1.	Retrieval:
@@ -27,4 +65,6 @@ The LDA visualization is performed using λ = 1 and λ = 0.5 to visualize the fr
 # Conclusion
 The project completes the process of text extraction, classification, and topic modeling on SEC filing. Using the topic modeling techniques like NMF, LSA, and LDA, the thematic patterns were observed. The classification result and sentiment analysis are sure to dictate the market analysis of the stock companies. The project helps the investors and stakeholders to gauge the financial health and risk analysis. Text mining of financial filings proved to be a powerful tool for identifying hidden patterns, outperforming traditional financial analysis in market risk evaluation. The project laid a solid foundation for future improvements. Future directions include incorporating more diverse datasets, analyzing social media sentiment, and developing an interactive dashboard for broader access to financial insights.
 
+# License
 
+# Acknowledgments
