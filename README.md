@@ -21,18 +21,18 @@ python -m spacy download en_core_web_sm
 This project aims to apply text mining to analyze financial documents from the U.S. Securities and Exchange Commission (SEC). The project is led from the foundation of the advanced Natural Language Processing (NPL). The data retrieval and processing is followed by machine learning classification and topic modeling. 
 
 # Partner(s)/Contributor(s)
-Dip Raj Bista
-Ghassan Seba 
-Landon Padgett
+1. Dip Raj Bista
+2. Ghassan Seba 
+3. Landon Padgett
 
 # Methods Used
-Data Preprocessing
-Web Scrapping
-Data Visualization
-Data Engineering
-Predictive Modeling
-Machine Learning
-Text Mining
+1. Data Preprocessing
+2. Web Scrapping
+3. Data Visualization
+4. Data Engineering
+5. Predictive Modeling
+6. Machine Learning
+7. Text Mining
 
 # Technologies
 Python
