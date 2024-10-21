@@ -7,7 +7,7 @@ This project is part of the ADS_509 Applied Text Mining course in the Applied Da
 # Installation
 1. Clone this repository:
 git init
-git clone https://github.com/your-username/financial-disclosure-analysis.git
+git clone https://github.com/DiprajBista/ADS509-Group-2-APPLIED-TEXT-MINING-FINAL-PROJECT.git
 
 2. Install the required Python libraries:
 pip install -r requirements.txt
