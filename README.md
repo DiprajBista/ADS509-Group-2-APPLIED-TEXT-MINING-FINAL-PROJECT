@@ -27,7 +27,7 @@ This project aims to apply text mining to analyze financial documents from the U
 
 # Methods Used
 1. Data Preprocessing
-2. Web Scrapping
+2. Web Scraping
 3. Data Visualization
 4. Data Engineering
 5. Predictive Modeling
