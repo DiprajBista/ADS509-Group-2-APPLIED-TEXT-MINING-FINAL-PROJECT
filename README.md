@@ -47,8 +47,8 @@ In this process, the central index key (CIK) is used for accessing company filin
 # 2.	Exploration: 
 The retrieval data is organized in the data frame with details of accession number, filing dates, document descriptions, etc. After accessing the variety of filing, the project focuses on the ‘8-k’ filing for further analysis.
 
-# 3.	Scrapping: 
-Focusing on the ‘8-k’ filing, the data is extracted in the scrapping phase of the project. The CIK is used for the companies to scrape the documents from the SEC database. The BeautifulSoup library is used to parse the HTML documents. The key financial information is scraped in this step to carry them for further steps.  
+# 3.	Scraping: 
+Focusing on the ‘8-k’ filing, the data is extracted in the scraping phase of the project. The CIK is used for the companies to scrape the documents from the SEC database. The BeautifulSoup library is used to parse the HTML documents. The key financial information is scraped in this step to carry them for further steps.  
 
 # 4.	Processing:
 This step prepares the final data for the modeling analysis. The scrapped data is organized into a properly structured data frame with key financial information such as filing dates, accession numbers, etc. The dataset is prepared for further financial analysis, risk analysis, and decision-making process.
