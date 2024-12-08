@@ -17,8 +17,8 @@ pip install -r requirements.txt
 4. You will also need to install spaCy’s English language model:
 python -m spacy download en_core_web_sm
 
-# Project Intro/Objective
-This project aims to apply text mining to analyze financial documents from the U.S. Securities and Exchange Commission (SEC). The project is led from the foundation of the advanced Natural Language Processing (NPL). The data retrieval and processing is followed by machine learning classification and topic modeling. 
+# Project Introduction/Objective
+The project is based on utilizing Natural Language Processing (NLP) and leveraging FinBERT for sentiment analysis of financial filings to predict stock price movements. The project aims to empower retail investors by providing insights from the company’s financial documents. Among various SEC filing financial documents to predict the market stock trend, the project adopts 8-K filings.  
 
 # Partner(s)/Contributor(s)
 1. Dip Raj Bista
@@ -33,9 +33,14 @@ This project aims to apply text mining to analyze financial documents from the U
 5. Predictive Modeling
 6. Machine Learning
 7. Text Mining
+8. Sentiment Analysis with FinBERT
+9. Topic Modeling
+
 
 # Technologies
-Python
+1. Python
+2. FinBERT
+3. Libraries: BeautifulSoup, Requests, spaCy, scikit-learn, NMF, LSA, LDA
 
 # Project Description
 The project is outlined in the following steps.
@@ -76,8 +81,9 @@ The project completes the process of text extraction, classification, and topic 
 We would like to express our gratitude to the following individuals and organizations whose contributions and resources have been invaluable to the success of this project:
 
 - **University of San Diego** for providing the academic foundation through the Applied Data Science Program.
-- **Professor Ann Marbut** for her guidance throughout the course.
+- **Professor Ebrahim Tarshizi** for his guidance throughout the course.
+- **FinBERT** for sentiment analysis of the financial text.
 - **spaCy** for the Named Entity Recognition (NER) tool used in this project.
 - **BeautifulSoup** and **Requests** libraries for web scraping functionality.
 - **scikit-learn** and **NMF/LSA/LDA** libraries for the machine learning and topic modeling components.
-- Open-source contributors who maintain the Python libraries that were crucial for this project.
+- Open-source contributors who maintain the Python libraries crucial for this project.
