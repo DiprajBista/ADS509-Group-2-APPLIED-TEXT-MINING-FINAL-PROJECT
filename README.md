@@ -33,8 +33,6 @@ This project aims to apply text mining to analyze financial documents from the U
 5. Predictive Modeling
 6. Machine Learning
 7. Text Mining
-8. Sentiment Analysis with FinBERT
-9. Topic Modeling
 
 
 # Technologies
